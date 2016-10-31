@@ -1,0 +1,89 @@
+body{
+    margin:0;
+}
+.ch-header{
+    width:100%;
+    height:5em;
+    background: #F6A423;
+    color: #fff;
+    text-align: center;
+}
+.ch-header span{
+    display: inline-block;
+    width:55%;
+    margin-top:5%;
+    font-weight: bold;
+}
+.ch-content{
+    background: #fff;
+    padding-bottom:2em;
+    padding-top:2em;
+}
+.ch-content-table{
+    border:1px solid #BEBEBE;
+    width:94%;
+    margin:0 auto;
+    color: #020202;
+    font-weight: bolder;
+    background: #fff;
+}
+.ch-content-table section{
+    height:2em;
+    width:100%;
+    line-height: 2em;
+    border-bottom:1px solid #C0C0C0;
+}
+
+.ch-content-table section:last-child{
+    border-bottom: 0px;
+}
+.ch-content-table span{
+    display: inline-block;
+}
+.ch-border-r{
+    border-right:1px solid #C0C0C0;
+}
+
+
+
+.ch-pay{
+    position:absolute;
+    border-top:1px solid #D3D3D3;
+    border-bottom:1px solid #D3D3D3;
+    bottom:25%;
+    width:100%;
+    background: #fff;
+}
+.ch-pay section{
+    padding:10px;
+    width:92%;
+    margin:0 auto;
+}
+.ch-pay section:first-child{
+    border-bottom:1px solid #F2F2F2;
+}
+.ch-pay section span:last-child{
+    float: right;
+}
+
+.ch-footer{
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    height: 3em;
+    line-height: 3em;
+}
+.ch-footer div{
+    text-align: center;
+    display: inline-block;
+    float: left;
+    color: #fff;
+}
+.ch-footer div:first-child{
+    width:50%;
+    background: #666666;
+}
+.ch-footer div:last-child{
+    width:50%;
+    background: #50D481;
+}

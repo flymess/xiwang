@@ -1,0 +1,68 @@
+body{
+    background: #F0F0F0;
+}
+.bm-content{
+    width:90%;
+    margin:0 auto;
+    margin-top:1em;
+    background: #fff;
+    border-radius: 10px;
+}
+.bm-content input:first-child{
+    margin-top:10px;
+}
+.input_text{
+    width:94%;
+    background: #F0F0F0;
+    border:none;
+    padding:10px 0;
+    margin:5px 3%;
+    box-shadow: 0px 0px 0px 2px transparent;
+    color: #eca29b;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    text-indent: 1em;
+    border-radius: 3px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-appearance: none; /* for box shadows to show on iOS */
+}
+.input_text:focus{
+    box-shadow: 0px 0px 0px 2px #eca29b;
+}
+.bm-select{
+    width:96%;
+    padding:0 10px;
+    margin:5px 0px;
+}
+.bm-select select{
+    border:1px solid #DCDCDC;
+    border-radius:2px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width:31%;
+    padding:10px 5px;
+    color: #BBBBBB;
+    text-indent: 10px;
+    position: relative;
+}
+.bm-select .ui-icon-unfold{
+    position: absolute;
+    right:20px;
+    top:-2px;
+}
+.bm-select select[name="grade"]{
+    width:48%;
+}
+.bm-content input[type="button"]{
+    border:1px solid transparent;
+    border-radius: 3px;
+    width:94%;
+    padding:10px 0;
+    font-weight: bold;
+    margin:3%;
+    background: #96E5B2;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1em;
+}
