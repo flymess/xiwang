@@ -10,9 +10,11 @@ body{
 }
 .ch-header span{
     display: inline-block;
-    width:55%;
-    margin-top:5%;
+    width:60%;
     font-weight: bold;
+}
+.ch-header span:first-child{
+    margin-top:5%;
 }
 .ch-content{
     background: #fff;
@@ -24,7 +26,6 @@ body{
     width:94%;
     margin:0 auto;
     color: #020202;
-    font-weight: bolder;
     background: #fff;
 }
 .ch-content-table section{
