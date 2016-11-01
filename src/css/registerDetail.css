@@ -57,6 +57,12 @@ section article .middle table{
     border-bottom:2px solid rgb(80,212,129);
     border-collapse:collapse;
 }
+section article .middle table .leftBorder{
+    border-left: 1px solid #ebebeb;
+}
+section article .middle table .topBorder{
+    border-top: 1px solid #ebebeb;
+}
 section article .middle table td{
     padding-left:5px;
     height:25px;
