@@ -1,9 +1,7 @@
 /**
  * Created by tao on 2016/10/31.
  */
-function change(href) {
-	window.location.href = href;
-}
+
 $('#element_id').cxSelect({
 	url: 'js/cityData.min.json',
 	selects: ['province','city','area'],
@@ -63,4 +61,9 @@ $('#custom_data').cxSelect({
 		]
 		}
 	]
+})
+$('input[type="button"]').on('click',function () {
+	var province = $('.province').val()
+	alert(province)
+	window.location.href = './check.html';
 })
