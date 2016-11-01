@@ -63,22 +63,69 @@ $('#custom_data').cxSelect({
 	]
 })
 
-function change() {
-	this.setCustomValidity('锁定技佛顶山金佛啥的')
-}
 
 /*报名页表单验证*/
+function NameLenFocusOut() {
+	var name = $(this).val();
+	if (name == '') return
+	else if(!(/^\S{1,32}$/.test(name))){
+		$(this).val('');
+		$(this).addClass('invalid');
+		$(this).attr('placeholder','长度超过限制,请重新输入');
+	}
+}
+function FocusIn(data) {
+	$(this).removeClass('invalid');
+	$(this).attr('placeholder',data.data);
+}
+function NumLenFocusOut() {
+	var number = $(this).val();
+	if (number == '') return
+	else if (!(/^1[34578]\d{9}$/.test(number))){
+		$(this).val('');
+		$(this).addClass('invalid');
+		$(this).attr('placeholder','手机号码格式错误');
+	}
+}
+function EmailFocusOut() {
+	var email = $(this).val();
+	if (email == '') return
+	else if (!(/.+@.+\.[a-zA-Z]{2,4}$/.test(email))){
+		$(this).val('');
+		$(this).addClass('invalid');
+		$(this).attr('placeholder','邮箱格式错误');
+	}
+}
+var $name = $('.bm-content form>input:nth-child(1)');
+var $family = $('.bm-content form>input:nth-child(5)');
+var $number = $('.bm-content form>input:nth-child(6)');
+var $email = $('.bm-content form>input:nth-child(8)');
+
+
+
+$name.focus('参赛者姓名',FocusIn);
+$name.blur(NameLenFocusOut);
+
+$family.focus('家长姓名',FocusIn);
+$family.blur(NameLenFocusOut);
+
+$number.focus('联系电话',FocusIn);
+$number.blur(NumLenFocusOut);
+
+$email.focus('邮箱',FocusIn);
+$email.blur(EmailFocusOut);
+
+
+
+
+
 $('.bm-content form').on('submit',function () {
-	var name = $('.bm-content form>input:nth-child(1)').val();
 	var province = $('.bm-content form select:nth-child(1)').val();
 	var city = $('.bm-content form select:nth-child(2)').val();
 	var area = $('.bm-content form select:nth-child(3)').val();
 	var school = $('.bm-content form>input:nth-child(3)').val();
 	var group = $('.group').val();
 	var grade = $('.grade').val();
-	var family = $('.bm-content form>input:nth-child(5)').val();
-	var number = $('.bm-content form>input:nth-child(6)').val();
 	var address = $('.bm-content form>input:nth-child(7)').val();
-	var email = $('.bm-content form>input:nth-child(8)').val();
 	return false
 })
