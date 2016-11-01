@@ -146,7 +146,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
+    <option name="x" value="-29" />
     <option name="y" value="48" />
     <option name="width" value="1932" />
     <option name="height" value="1054" />
@@ -346,16 +346,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477880159903</updated>
-      <workItem from="1477880161167" duration="27166000" />
+      <workItem from="1477880161167" duration="27336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27166000" />
+    <option name="totallyTimeSpent" value="27336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="48" width="1932" height="1054" extended-state="0" />
-    <editor active="true" />
+    <frame x="-29" y="48" width="1932" height="1054" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1969377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
