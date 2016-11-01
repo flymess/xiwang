@@ -100,3 +100,21 @@ header .right{
     text-align: center;
     letter-spacing: 1em;
 }
+
+/*修改默认placeholder颜色*/
+
+.invalid:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: red;
+}
+
+.invalid::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: red;
+}
+
+input.invalid:-ms-input-placeholder{
+    color: red;
+}
+
+input.invalid::-webkit-input-placeholder {
+    color: red;
+}
