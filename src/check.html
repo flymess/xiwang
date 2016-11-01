@@ -9,9 +9,9 @@
 </head>
 <body>
 <header>
-    <span class="left"><img src="img/arrow-left.png"></span>
-    <span class="center">报名详情</span>
-    <span class="left"><img src="img/user.png" onclick="location.href='index.html'"></span>
+    <span class="left"><img src="img/arrow-left.png" onclick="history.back()"></span>
+    <span class="center">支付报名费</span>
+    <span class="left"><a href="./index.html"><img src="img/user.png"></a></span>
 </header>
     <!--确认个人订单信息-->
     <div class="ch-header">
@@ -49,7 +49,7 @@
     <!--支付按钮-->
     <div class="ch-footer">
         <div>稍后支付</div>
-        <div onclick="location.href='registerSuccess.html'">立即支付</div>
+        <a href="./registerSuccess.html"><div>立即支付</div></a>
     </div>
 </body>
 </html>
