@@ -1,7 +1,7 @@
 /**
  * Created by tao on 2016/10/31.
  */
-
+/*多级联动*/
 $('#element_id').cxSelect({
 	url: 'js/cityData.min.json',
 	selects: ['province','city','area'],
@@ -62,8 +62,23 @@ $('#custom_data').cxSelect({
 		}
 	]
 })
-$('input[type="button"]').on('click',function () {
-	var province = $('.province').val()
-	alert(province)
-	window.location.href = './check.html';
+
+function change() {
+	this.setCustomValidity('锁定技佛顶山金佛啥的')
+}
+
+/*报名页表单验证*/
+$('.bm-content form').on('submit',function () {
+	var name = $('.bm-content form>input:nth-child(1)').val();
+	var province = $('.bm-content form select:nth-child(1)').val();
+	var city = $('.bm-content form select:nth-child(2)').val();
+	var area = $('.bm-content form select:nth-child(3)').val();
+	var school = $('.bm-content form>input:nth-child(3)').val();
+	var group = $('.group').val();
+	var grade = $('.grade').val();
+	var family = $('.bm-content form>input:nth-child(5)').val();
+	var number = $('.bm-content form>input:nth-child(6)').val();
+	var address = $('.bm-content form>input:nth-child(7)').val();
+	var email = $('.bm-content form>input:nth-child(8)').val();
+	return false
 })
