@@ -18,7 +18,7 @@
 <!--报名表单-->
     <div class="bm-content" >
         <form action="">
-        <input class="input-text" type="text" placeholder="参赛者姓名" required>
+        <input class="input-text" type="text" placeholder="参赛者姓名" onfocus="FocusIn(this,'参赛者姓名')" onblur="NameLenFocusOut(this)" required>
         <div class="bm-select" id="element_id" style="position: relative;">
             <select class="province" data-first-title="选择省" required>
             </select>
@@ -26,7 +26,6 @@
             </select>
             <select class="area" data-first-title="选择区" required>
             </select>
-            <!--<input readonly type="text" data-toggle="city-picker" data-simple="true" style="width: 100%;height: 2em;border: 1px solid #000;border-radius: 3px;">-->
         </div>
         <input class="input-text" type="text" placeholder="所在学校" required="required">
         <div class="bm-select" id="custom_data">
@@ -38,18 +37,19 @@
                 <option value=""></option>
             </select>
         </div>
-        <input class="input-text" type="text" placeholder="家长姓名" required>
-        <input class="input-text" type="tel" placeholder="联系电话"  pattern="^1[34578]\d{9}$" required>
+        <input class="input-text" type="text" placeholder="家长姓名" required onfocus="FocusIn(this,'家长姓名')" onblur="NameLenFocusOut(this)">
+        <input class="input-text" type="tel" placeholder="联系电话"  pattern="^1[34578]\d{9}$" required onfocus="FocusIn(this,'联系电话')" onblur="NumLenFocusOut(this)">
         <input class="input-text" type="text" placeholder="家庭住址" required>
-        <input class="input-text" type="email" placeholder="邮箱" required>
+        <input class="input-text" type="email" placeholder="邮箱" required onfocus="FocusIn(this,'邮箱')" onblur="EmailFocusOut(this)">
         <input type="submit" value="提交">
         </form>
+    </div>
+    <!--增加loading图标,透明0.8，居中显示,通过添加删除DisplayNone来显示隐藏-->
+    <div class="bm-loading DisplayNone">
+        <img src="./img/loading.gif" alt="">
     </div>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery.cxselect.min.js"></script>
 <script src="js/interaction.js"></script>
-
-    <!--<script src="js/city-picker.data.js"></script>-->
-<!--<script src="js/city-picker.js"></script>-->
 </body>
 </html>
