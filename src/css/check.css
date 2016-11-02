@@ -1,5 +1,32 @@
 body{
     margin:0;
+    padding:0;
+    font-family: '微软雅黑';
+    background: #f0f0f0;
+}
+header{
+    height:50px;
+    line-height:50px;
+    background: white;
+    border-bottom:1px solid rgb(194,194,194);
+    font-size:17px;
+}
+header span{
+    display: inline-block;
+    width:70%;
+    float: left;
+    text-align: center;
+}
+header span img{
+    width:20px;
+    height:18px;
+}
+header .left{
+    width:15%;
+}
+header .right{
+    float: right;
+    width:15%;
 }
 .ch-header{
     width:100%;
@@ -10,48 +37,48 @@ body{
 }
 .ch-header span{
     display: inline-block;
-    width:60%;
-    font-weight: bold;
+    width:100%;
 }
 .ch-header span:first-child{
     margin-top:5%;
 }
 .ch-content{
-    background: #fff;
-    padding-bottom:2em;
-    padding-top:2em;
+    padding-bottom:1em;
+    padding-top:1em;
+    font-size:14px;
+    color: #444;
 }
 .ch-content-table{
-    border:1px solid #BEBEBE;
+    border:1px solid #DCDCDC;
     width:94%;
     margin:0 auto;
-    color: #020202;
     background: #fff;
 }
 .ch-content-table section{
-    height:2em;
+    display: table;
     width:100%;
-    line-height: 2em;
-    border-bottom:1px solid #C0C0C0;
+    line-height: 2.2em;
+    border-bottom:1px solid #DCDCDC;
 }
-
 .ch-content-table section:last-child{
     border-bottom: 0px;
 }
 .ch-content-table span{
-    display: inline-block;
+    display: table-cell;
+    padding-left:4px;
+    vertical-align: middle;
+    text-align: left;
 }
 .ch-border-r{
-    border-right:1px solid #C0C0C0;
+    border-right:1px solid #DCDCDC;
+    width:40%;
 }
 
 
 
 .ch-pay{
-    position:absolute;
     border-top:1px solid #D3D3D3;
     border-bottom:1px solid #D3D3D3;
-    bottom:25%;
     width:100%;
     background: #fff;
 }

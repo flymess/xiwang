@@ -150,10 +150,23 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-599" />
     <option name="y" value="94" />
     <option name="width" value="1936" />
     <option name="height" value="1092" />
+=======
+<<<<<<< HEAD
+    <option name="x" value="-29" />
+    <option name="y" value="48" />
+    <option name="width" value="1932" />
+    <option name="height" value="1054" />
+=======
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
+>>>>>>> a109b8448d472f917cda056019d24f7c1573fd0f
+>>>>>>> 312bc6689c30830d7e7e9fe685f028a1e9003baf
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -356,16 +369,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477880159903</updated>
+<<<<<<< HEAD
+      <workItem from="1477880161167" duration="27336000" />
+=======
       <workItem from="1477880161167" duration="27166000" />
+<<<<<<< HEAD
       <workItem from="1477922835417" duration="3391000" />
+=======
+      <workItem from="1477922835417" duration="3349000" />
+>>>>>>> a109b8448d472f917cda056019d24f7c1573fd0f
+>>>>>>> 312bc6689c30830d7e7e9fe685f028a1e9003baf
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="30557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-599" y="94" width="1936" height="1092" extended-state="0" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="27336000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-29" y="48" width="1932" height="1054" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="30515000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+>>>>>>> a109b8448d472f917cda056019d24f7c1573fd0f
+>>>>>>> 312bc6689c30830d7e7e9fe685f028a1e9003baf
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19652265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

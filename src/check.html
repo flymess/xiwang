@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/check.css">
 </head>
 <body>
+<header>
+    <span class="left"><img src="img/arrow-left.png" onclick="history.back()"></span>
+    <span class="center">支付报名费</span>
+    <span class="left"><a href="./index.html"><img src="img/user.png"></a></span>
+</header>
+    <!--确认个人订单信息-->
     <div class="ch-header">
         <span>还差最后一步就完成报名啦</span>
         <span>支付之前核对一下个人信息哦</span>
@@ -16,31 +22,34 @@
     <div class="ch-content-table">
         <section>
             <span class="ch-border-r">参赛者姓名:</span>
-            <span>身份证:</span>
+            <span>地区:</span>
         </section>
         <section>
-            所在地区:
+            <span>学校:</span>
         </section>
         <section>
-            <span class="ch-border-r">所在学校:</span>
-            <span>所在年级:</span>
+            <span class="ch-border-r">年级组:</span>
+            <span>年级:</span>
         </section>
         <section>
             <span class="ch-border-r">家长姓名:</span>
             <span>联系电话:</span>
         </section>
-        <section>家庭地址:</section>
-        <section>邮箱:</section>
+        <section><span>家庭地址:</span></section>
+        <section><span>邮箱:</span></section>
     </div>
     </div>
+
+    <!--大赛信息-->
     <div class="ch-pay">
         <section><span>大赛名称</span><span></span></section>
         <section><span>金额</span><span></span></section>
     </div>
 
+    <!--支付按钮-->
     <div class="ch-footer">
         <div>稍后支付</div>
-        <div>立即支付</div>
+        <a href="./registerSuccess.html"><div>立即支付</div></a>
     </div>
 </body>
 </html>
